@@ -1,0 +1,691 @@
+.bdy/*body*/
+{
+    height: 100%;
+    width:100%;
+    border-style: "margin:0";
+   
+}
+
+.fit/*guitar pic div*/
+{
+    height: 800px;
+    width: 100%;
+    border-style: "margin:0";
+}
+.defaultheader/*header*/
+{
+    height: 100px;
+    width: 100%;
+    border-style: "margin:0";
+
+
+}
+.rslider/*Learn Guitar.io*/
+{
+    
+    width:16%;
+    text-decoration: white;
+    margin-top: 0%;
+    float: left;
+    text-align: left;
+    display: inline;
+    padding-left: 3%;
+  
+}
+.slidercontainer/*menu div(home...about us)*/
+{ 
+
+    text-decoration: white;
+    text-align: center;
+    width: 80%;
+    float: right;
+    margin-top: 7%;
+   
+
+
+ 
+   
+}
+
+.slidercontainer ul
+{
+   
+    margin: 5px 0px 5px 0px;
+    
+  
+}
+.hom/*home menu*/
+{
+    height: inherit;
+    position: relative;
+    width:5%;
+    float:left;
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    border-radius: 1px;
+
+    
+}
+.hom:hover/*home hover*/
+{
+    background-color: rgb(78, 112, 9);
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-bottom-color: yellowgreen;
+  border-top: none;
+  border-left: none;
+  border-right-color: yellowgreen;
+  border-radius: 1px;
+
+
+}
+.log/*log in menu*/
+{
+    height: inherit;
+    width:5%;
+    padding-left: 2%;
+    float:left;
+    color: white;
+}
+.log:hover/*log in hover*/
+{
+    color: yellowgreen;
+}
+.cont/*comntacr us menu*/
+{
+    height: inherit;
+    position: relative;
+    width:6%;
+    float:left;
+    color: white;
+    text-align: center;
+    padding-right: 9%;
+}
+.cont:hover/*contact us hover*/
+{
+    color: yellowgreen;
+}
+/*
+ul#horizontallist
+{
+    padding-top: 18px;
+ font-size: medium;
+ display: inline;
+   min-width: 300px;
+   float: right;
+   padding-right: 50%;
+ 
+}
+
+ul#horizontallist li
+{
+    display: inline;
+    padding: 70%;
+    padding-inline-start: 4%;
+    text-decoration: none; 
+}
+ul#horizontallist a:hover
+{
+    border-bottom: 60%,rgb(80, 109, 21);
+    border-right: 60%,rgb(80, 109, 21);
+}
+*/
+
+
+.stain/*for all ages... structure div*/
+{
+    
+ height:280px;
+ width:100%;
+ color: white;
+ position: relative;
+ 
+}
+.mid1/*for all ages ...text(para) actual div*/
+{
+    position: relative;
+    height: inherit;
+    float: inline-end;
+    width:40%;
+    color: white;
+    padding-left: 5%;
+    padding-top: 4%;
+    text-indent: 30px;
+    font-size: 150%;
+    line-height: 0.7;  
+}
+.getr/*join now button structure div */
+{
+    height: 40px;
+    width:40%;
+    position: relative;
+    
+}
+.dum/*dummy div for join now button*/
+{
+    height: inherit;
+    width: 45%;
+    float:left;
+   
+}
+.but/* join now button actual div*/
+{
+    height: inherit;
+    float: left;
+   
+    width:40%;
+    background-color: yellowgreen;
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 2px;
+    border-width: 2px 2px 2px 2px;
+    color: white;
+    text-align: center;
+    margin-bottom:1px; 
+    text-overflow: ellipsis;
+   
+    overflow: hidden;
+
+    
+ 
+}
+.but:hover/*join now button over div*/
+{
+    background-color: rgb(78, 112, 9);
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-bottom-color: yellowgreen;
+  border-top: none;
+  border-left: none;
+  border-radius: 2px;
+
+  border-right-color: yellowgreen;
+}
+.getm/*free lessons structure div*/
+{
+    height: 40px;
+    width:40%;
+    position: relative;
+    
+}
+.dumm/*dummy div for free lessons button*/
+{
+    height: inherit;
+    width: 45%;
+    float:left;
+   
+}
+.butm/*free lessons button actual div*/
+{
+   
+    height: inherit;
+    float: left;
+   
+    width:40%;
+    border-style: solid;
+    color: white;
+    text-align: center;
+    border-color: yellowgreen;
+    border-radius: 2px;
+    border-width: 2px 2px 2px 2px;
+    margin-bottom:1px; 
+    text-overflow: ellipsis;
+   
+    overflow: hidden;
+
+    
+ 
+}
+.butm:hover/*free lesson button hover*/
+{
+
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-bottom-color: yellowgreen;
+
+  border-radius: 2px;
+    border-top-color:yellowgreen ;
+    border-left-color: yellowgreen;
+  border-right-color: yellowgreen;
+  background-color: white;
+  color: black;
+}
+.stream/*text div strucure*/
+{
+    height: 200px;
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    position: relative;
+    float: inline-end;
+    
+
+}
+.te1/*self paced text div*/
+{
+    height: inherit;
+    width:33%;
+    background-color: rgb(41, 0, 58);
+    float: left;
+}
+.te2/* adult beginner text div*/
+{
+    height: inherit;
+    width:34%;
+    background-color: black;
+    float: left;
+}
+.te3/*certificates text div*/
+{
+    height: inherit;
+    width:33%;
+    background-color: rgb(42, 156, 190);
+    float: right;
+}
+.card/*pofile structure div*/
+{
+    position: relative;
+    background-color: white;
+    height: 900px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.prof1/*pofile1 structure div*/
+{
+    height: 390px;
+    float: left;
+    width:17%;
+    background-color: white;
+    margin-left: 11%;
+    margin-top: 2%;
+    box-shadow: 0 0 8px #888888;
+}
+.prof1img
+{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.proftext
+{
+    width: 100%;
+    height:190px;
+}
+.prof2/*pofile2 structure div*/
+{
+    height: 390px;
+    float: left;
+    width:17%;
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 2%;
+    box-shadow: 0 0 8px #888888;
+}
+.prof2img/*pofile2 image div*/
+{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.prof3/*pofile3 structure div*/
+{
+    height: 390px;
+    float: left;
+    width:17%;
+    background-color: white;
+    margin-left: 3%;
+    margin-top: 2%;
+    box-shadow: 0 0 8px #888888;
+}
+.prof3img/*pofile3 image div*/
+{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.prof4/*pofile4 structure div*/
+{
+    height: 390px;
+    float: right;
+    width:17%;
+    background-color: white;
+ 
+    margin-top: 2%;
+    margin-right: 12%;
+    box-shadow: 0 0 8px #888888;
+}
+.prof4img/*pofile4 image div*/
+{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.prof5/*pofile5 structure div*/
+{
+    height: 390px;
+    float: left;
+    width:17%;
+    background-color: white;
+ 
+    margin-top: 2%;
+    margin-left: 31%;
+    box-shadow: 0 0 8px #888888;
+}
+.prof5img/*pofile5 image div*/
+{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.prof6/*pofile6 structure div*/
+{
+    height: 390px;
+    float: left;
+    width:17%;
+    background-color: white;
+ 
+    margin-top: 2%;
+    margin-left: 3%;
+    box-shadow: 0 0 8px #888888;
+}
+.prof6img/*pofile6 image div*/
+{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.l3/*TEXT,EXPLORE,COURSES structure div*/
+{
+    width: 100%;
+    height: 570px;
+    background-color: black;
+
+    position: relative;
+}
+.duf/*dummy for text div*/
+{ 
+    width: 100%;
+    height: 60px;
+    background-color: rgb(41, 0, 58);
+    position: relative;
+
+}
+.vtext/*actual text div*/
+{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(41, 0, 58);
+    color: white;
+}
+.explore/*explore+plans...button structure div*/
+{
+    height:140px;
+    width: 100%;
+
+}
+.plans/* plans button actual div*/
+{
+    height: 46px;
+    float: left;
+    color: white;
+   
+    width:17%;
+
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 35px;
+    border-width: 2px 2px 2px 2px;
+    color: white;
+    text-align: center;
+    margin-bottom:px; 
+    margin-left: 21%;
+
+
+   
+
+
+    
+ 
+}
+.plans:hover/*plans button over div*/
+{
+   
+    background-color: white;
+    color: black;
+
+
+
+
+}
+.story/* story button actual div*/
+{
+    height: 46px;
+    float: left;
+    color: white;
+   
+    width:17%;
+
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 35px;
+    border-width: 2px 2px 2px 2px;
+    color: white;
+    text-align: center;
+    margin-bottom:px; 
+    margin-left: 3%;
+
+
+   
+
+
+    
+ 
+}
+.story:hover/*story button hover div*/
+{
+   
+    background-color: white;
+    color: black;
+
+
+
+
+}
+.blog/* blog button actual div*/
+{
+    height: 46px;
+    float: left;
+    color: white;
+   
+    width:17%;
+
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 35px;
+    border-width: 2px 2px 2px 2px;
+    color: white;
+    text-align: center;
+    margin-bottom:5px; 
+    margin-left: 3%;
+
+
+   
+
+
+    
+ 
+}
+.blog:hover/*blog button over div*/
+{
+   
+    background-color: white;
+    color: black;
+
+
+
+
+}
+.browsec/*signup  div*/
+{
+    width: 80%;
+    height:190px;
+    color: black;
+    float:inline-end;
+    margin-left: 147px;
+
+    box-shadow: 0 0 6px #888888;
+}
+.fname/*first name textbox div*/
+{
+    height: 35px;
+    float: left;
+    color: white;
+   
+    width:25%;
+
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 14px;
+    border-width: 2px 2px 2px 2px;
+    color: white;
+    text-align: center;
+
+    margin-left: 24%;
+
+}
+input::-webkit-input-placeholder /*div placeholder css*/
+{
+    margin-top: 6%;
+    font-size: 15px;
+    line-height: 3;
+    text-align: center;
+}
+.emid/*email id textbox div*/
+{
+    height: 35px;
+    float: left;
+    color: white;
+   
+    width:25%;
+
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 14px;
+    border-width: 2px 2px 2px 2px;
+    color: white;
+    text-align: center;
+
+    margin-left: 2%;
+   
+
+}
+.sign/* sign me up button actual div*/
+{
+    height: 42px;
+    position: relative;
+  background-color: yellowgreen;
+   
+    width:17%;
+
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 35px;
+    border-width: 2px 2px 2px 2px;
+    color: white;
+    text-align: center;
+   margin-top: 8%;
+    margin-left: 42%;
+
+
+   
+
+
+    
+ 
+}
+.sign:hover/*sign meup button hover div*/
+{
+   
+    background-color: rgb(123, 163, 43);
+   
+
+
+
+
+
+}
+  
+.foot/*footer structure div*/
+{
+    width: 100%;
+    height: 250px;
+    background-color: #cbcad1;
+    position: relative;
+    margin-top: 8%;
+}
+.footi/*footer inner div*/
+{
+    height: 200px;
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    float: left;
+    color: rgb(138, 140, 143);
+}
+.foot1/*learnguit footer 1 div*/
+{
+    height: inherit;
+    width: 23%;
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
+    position: relative;
+    text-align: left;
+  
+
+
+}
+.foot2/*resources footer 2 div*/
+{
+    height: inherit;
+    width: 23%;
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
+    position: relative;
+
+}
+.foot3/*support footer 3 div*/
+{
+    height: inherit;
+    width: 23%;
+    margin-top: 1%;
+    margin-left: 2%;
+    float: left;
+    position: relative;
+
+
+}
+li:not(:first-of-type) {
+    padding-top: 10px;
+}
+.foot4/*support footer 3 div*/
+{
+    height: inherit;
+    width: 23%;
+    margin-top: 1%;
+    margin-right: 1%;
+    float: right;
+}
+
+
+
+

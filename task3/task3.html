@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Temparature Convertor</title>
+        <link rel="stylesheet" href="task3.css">
+    </head>
+    <body >
+
+ 
+        <div class="bdy" id="dhead">
+
+            <div class="fit" >
+                <a id="cnv">Convert From</a>
+               
+                <p id="myForm">
+                    <form name="units" onsubmit=" calculateTemp(); return false" >
+                        Temparature
+                        
+                        <input id="temp"><br><span id="numloc"></span><br><br>
+                        <label for="dropdid" id="typ">Type</label>
+
+                        <select name="dropd" id="dropdid">
+                          <option value="fahr">Fahrenheit</option>
+                          <option value="Cel">Celsius</option>
+                         
+                        </select>
+                        <br><br>
+                        <input type="submit" value="Convert" id="conv">
+                        <br><br>
+
+                        
+                        <label for="rest" id="redi">Result</label>
+                        
+                        
+                        <input  id="rest" >
+                        <br>
+                        <span id="resultContainer"></span>
+                        
+                    <form>
+                </p>
+                <p id="wynik"></p>
+                <script src="temp.js">
+                        
+                </script>
+
+            
+
+            
+
+
+        </div>
+        
+    </body>
+</html>
