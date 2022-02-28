@@ -1,0 +1,204 @@
+.bdy/*body*/
+{
+    height: 100%;
+    width:100%;
+    border-style: "margin:0";
+    background-color: brown;
+   
+   
+}
+
+.fit/*guitar pic div*/
+{
+    height: 750px;
+    width: 100%;
+    border-style: "margin:0";
+    background-color: brown;
+}
+.defaultheader/*header*/
+{
+    height: 100px;
+    width: 100%;
+    border-style: "margin:0";
+
+
+}
+.rslider/*Learn Guitar.io*/
+{
+    
+    width:16%;
+    text-decoration: white;
+    margin-top: 0%;
+    float: left;
+    text-align: left;
+    display: inline;
+    padding-left: 3%;
+  
+}
+.slidercontainer/*menu div(home...about us)*/
+{ 
+
+    text-decoration: white;
+    text-align: center;
+    width: 80%;
+    float: right;
+    margin-top: 7%;
+   
+
+
+ 
+   
+}
+
+.slidercontainer ul
+{
+   
+    margin: 5px 0px 5px 0px;
+    
+  
+}
+.hom/*home menu*/
+{
+    height: inherit;
+    position: relative;
+    width:5%;
+    float:left;
+    
+    color: white;
+    text-align: center;
+  
+
+    
+}
+.hom:hover/*home hover*/
+{
+   color: yellowgreen;
+
+
+}
+.log/*log in menu*/
+{
+    height: inherit;
+    width:5%;
+    padding-left: 2%;
+    float:left;
+    color: white;
+}
+.log:hover/*log in hover*/
+{
+    color: yellowgreen;
+}
+.cont/*comntacr us menu*/
+{
+    height: inherit;
+    position: relative;
+    width:6%;
+    float:left;
+    color: white;
+    text-align: center;
+    padding-right: 9%;
+}
+.cont:hover/*contact us hover*/
+{
+    color: yellowgreen;
+}
+
+
+
+.stain/*for all ages... structure div*/
+{
+    
+ height:360px;
+ width:100%;
+ color: white;
+ margin-top: 6%;
+
+ position: relative;
+
+
+
+ 
+}
+
+.mid1/*for all ages ...text(para) actual div*/
+{
+    position: relative;
+    height: inherit;
+    
+    width:40%;
+    color: white;
+    padding-left: 5%;
+    padding-top: 4%;
+    text-indent: 30px;
+    font-size: 150%;
+    line-height: 0.4;  
+    float: left;
+}
+.imag
+{
+    height: 340px;
+    position: relative;
+  
+    width: 30%;
+    float: right;
+    margin-right: 2%; 
+    margin-top: 1%;
+
+}
+.imag {
+    animation: fadeIn 1s;
+    animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }    
+  .mid1 {
+    animation: fadeIn 1s;
+    animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }  
+
+
+
+
+.skills
+{
+    height: 275px;
+    width: 80%;
+    position: relative;
+    background-color: brown;
+    float: inline-end;
+    margin-left: 10%;
+    border-style: "margin:0";
+    color: white;
+    animation-duration: 3s;
+  animation-name: slidein;
+    
+   
+}
+.skills #icon
+{
+    margin-left: 48%;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 30%;
+      width: 60%;
+    }
+  
+    to {
+      margin-left: 10%;
+      width: 80%;
+    }
+  }
